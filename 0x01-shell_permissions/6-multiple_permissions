@@ -1,1 +1,2 @@
-#!/bin/bash\nchmod u+rx,g+rx,o+r hello
+#!/bin/bash
+chmod u+rx,g+rx,o+r
