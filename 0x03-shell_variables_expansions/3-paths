@@ -1,2 +1,3 @@
 #!/bin/bash
-printenv PATH | tr : n | grep -c '^/'
+printenv PATH | tr ':' 
+ | grep -c '^/'
