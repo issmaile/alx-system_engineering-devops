@@ -1,4 +1,8 @@
 #!/bin/bash
+<<<<<<< HEAD
 $
 echo "hello $(whoami)"
+echo "hello $(whoami)"
+=======
+>>>>>>> 7df0260df17fa854fbc73e09d976613c547e58da
 echo "hello $(whoami)"
