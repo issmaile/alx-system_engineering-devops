@@ -1,2 +1,2 @@
 #!/bin/bash
-echo `echo | tr water 01234` + `echo | tr stir. 0123` | dc | tr 0123456789ABCDEF bestcholn
+echo `echo `` | tr water 01234` + `echo `` | tr stir. 0123` | dc | tr 0123456789ABCDEF bestcholn
