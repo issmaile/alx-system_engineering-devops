@@ -1,0 +1,2 @@
+#!/bin/bash
+echo + | dc | tr '0123456789ABCDEF' 'bestchol\n'
