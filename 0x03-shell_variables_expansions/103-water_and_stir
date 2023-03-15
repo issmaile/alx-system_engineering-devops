@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(echo "$WATER" | tr water 01234) + $(echo "$STIR" | tr stir. 01234) | dc | tr 012345678 bestchol | echo
+echo $(echo "$WATER" | tr "water" "01234") + $(echo "$STIR" | tr "stir." "01234") | dc | tr "012345678" "bestchol" | echo
