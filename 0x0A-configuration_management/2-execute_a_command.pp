@@ -1,6 +1,6 @@
 # kill a proc named killmenow
 
 exec { 'pkill killmenow' :
-	path => '/bin/'
+	path	=> '/bin/',
 	command => 'pkill killmenow',
 	}
