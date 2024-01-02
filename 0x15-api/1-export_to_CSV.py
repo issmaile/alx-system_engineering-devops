@@ -21,7 +21,7 @@ def main():
     totalN = len(todosData)
     with open(f'{id}.csv', 'w') as file:
         for todo in todosData:
-            data1 = f'"{id}", "{userName}", "{todo.get("completed")}", '
+            data1 = f'"{id}","{userName}","{todo.get("completed")}",'
             data2 = f'"{todo.get("title")}"\n'
             file.write(data1 + data2)
 
