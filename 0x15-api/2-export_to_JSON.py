@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """ module documentation """
-import requests
 import json
+import requests
 import sys
 
 
