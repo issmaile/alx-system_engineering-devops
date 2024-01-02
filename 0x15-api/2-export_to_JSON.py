@@ -31,7 +31,7 @@ def main():
                     for task in todosData
                     ]
                 }
-        json.dump(data, file)
+        json.dump(content, file)
 
 
 if __name__ == "__main__":
