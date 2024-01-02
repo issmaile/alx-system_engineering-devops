@@ -23,6 +23,5 @@ def main():
         print("\t " + task.get("title"))
 
 
-
 if __name__ == "__main__":
     main()
