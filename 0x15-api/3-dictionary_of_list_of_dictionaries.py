@@ -16,7 +16,7 @@ def main():
         userData = requests.get(f"{url}{users}").json()
 
         if not userData:
-            break;
+            break
 
         userName = userData[0].get("username")
         todosData = requests.get(f'{url}{todos}').json()
