@@ -24,8 +24,8 @@ def main():
         data_dict[id] = [
                 {
                     "username": userName,
-                    "task": task.get("title")
-                    "completed": task.get("completed")
+                    "task": task.get("title"),
+                    "completed": task.get("completed"),
                 }
                 for task in todosData
             ]
