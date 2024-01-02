@@ -19,7 +19,6 @@ def main():
     todosDone = requests.get(f'{url}{done}').json()
     doneN = len(todosDone)
     totalN = len(todosData)
-    print(f'Employee {Name} is done with tasks({doneN}/{totalN}):')
     with open(f'{id}.csv', 'w') as file:
         for todo in todosData:
             data1 = f'"{id}", "{userName}", "{todo.get("completed")}", '
